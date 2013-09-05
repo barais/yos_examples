@@ -1,0 +1,10 @@
+To initiate the project
+
+> npm install
+> bower install
+> grunt server
+
+you can use 
+> echo fs.inotify.max_user_watches=524288 | sudo tee -a /etc/sysctl.conf && sudo sysctl -p
+if you do not kill grunt server properly
+
